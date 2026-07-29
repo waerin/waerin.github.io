@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on My CyberJou</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on My CyberJou</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+			<managingEditor>waerin@gmail.com (Waerin)</managingEditor>
+		
+		
+			<webMaster>waerin@gmail.com (Waerin)</webMaster>
+		
+		
+		
+			<lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>This is the beginning</title>
+				<link>http://localhost:1313/posts/hello/</link>
+				<pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate><author>waerin@gmail.com (Waerin)</author>
+				<guid>http://localhost:1313/posts/hello/</guid>
+				<description>&lt;p&gt;Hello World!&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
