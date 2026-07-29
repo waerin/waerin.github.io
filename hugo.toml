@@ -6,7 +6,6 @@ theme = "shibui"
 [params.author]
   name = "Waerin"
   email = "waerin@gmail.com"
-  description = "v0.1 and counting"
   # Enable/disable comments on posts (default: true)
   comments = true
 
