@@ -21,3 +21,5 @@ That's honestly why I started this blog. I wanted to document my growth from the
 And weirdly enough, even with all these hardships, I feel genuinely good every time I solve a question in a Hack The Box module. That feeling is nothing new to me. I've always been the problem-solver type. Since I was a kid, I've loved solving puzzles, whenever my siblings got a Kinder egg with a little toy inside, I was always the one who ended up solving it and putting it together. I've just always loved that kind of complicated, fiddly thing.
 
 So here we are. Patch v0.1. Let's see where this goes.
+
+![6am, still awake, still writing](/images/first-post.jpg)
