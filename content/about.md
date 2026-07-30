@@ -30,3 +30,8 @@ Why public? A few reasons:
 If you're early in your own security journey, hopefully some of this is
 useful, or at least it's good company to know someone else is figuring it
 out too, one patch at a time.
+
+**Get in touch**
+
+- 𝕏: <a href="https://x.com/wa4rin" target="_blank" rel="noopener noreferrer">@wa4rin</a>
+- ✉️ Email: [w4erin@gmail.com](mailto:w4erin@gmail.com)

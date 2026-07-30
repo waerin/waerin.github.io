@@ -36,5 +36,8 @@ theme = "shibui"
     url = "/about/"
     weight = 3
 
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
