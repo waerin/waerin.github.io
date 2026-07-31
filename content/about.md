@@ -34,4 +34,4 @@ out too, one patch at a time.
 **Get in touch**
 
 - 𝕏: <a href="https://x.com/wa4rin" target="_blank" rel="noopener noreferrer">@wa4rin</a>
-- ✉️ Email: [w4erin@gmail.com](mailto:w4erin@gmail.com)
+- Email: [w4erin@gmail.com](mailto:w4erin@gmail.com)
