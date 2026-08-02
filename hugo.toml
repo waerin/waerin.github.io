@@ -1,4 +1,4 @@
-baseURL = 'https://waerin.github.io/'
+baseURL = 'https://waerin.me/'
 locale = 'en-us'
 title = 'Patch Notes'
 theme = "shibui"
