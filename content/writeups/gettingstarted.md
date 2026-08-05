@@ -1,6 +1,8 @@
 ---
 title: "HTB Academy: Getting Started — GetSimple CMS RCE to Root"
 date: 2026-08-04
+description: "GetSimple CMS RCE to Root — a walkthrough of chaining an authenticated file upload vulnerability into full root access."
+
 ---
 
 ## Overview

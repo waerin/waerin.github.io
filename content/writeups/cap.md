@@ -1,6 +1,7 @@
 ---
 title: "HTB: Cap"
 date: 2026-08-05
+description: "An IDOR on a Security Dashboard app leaks a packet capture with cleartext FTP creds, leading to a shell as nathan — then a cap_setuid capability on python3.8 for an easy root."
 ---
 
 
