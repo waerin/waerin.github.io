@@ -128,9 +128,3 @@ root.txt  snap
 root@cap:/root# cat root.txt
 ba5d*******************750a6bf4d
 ``` 
-
-## Summary
-
-- **Foothold:** I abused an IDOR on the Security Dashboard's capture ID to pull an old `.pcap` containing cleartext FTP credentials.
-- **User:** I reused those FTP creds over SSH as `nathan`.
-- **Root:** I found a `cap_setuid` capability on `/usr/bin/python3.8`, which let me run `os.setuid(0)` and spawn a root shell.
