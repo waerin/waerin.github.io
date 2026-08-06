@@ -41,3 +41,4 @@ theme = "shibui"
     [markup.goldmark.renderer]
       unsafe = true
 
+enableRobotsTXT = true
